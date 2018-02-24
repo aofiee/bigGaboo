@@ -1,0 +1,7 @@
+package: goGetManga
+import:
+- package: github.com/labstack/gommon
+  version: ^0.2.3
+  subpackages:
+  - log
+- package: github.com/dustin/go-humanize
